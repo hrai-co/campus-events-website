@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">CampusEvents</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#events">Events</a></li>
+                <li><a href="registration.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- REGISTRATION SECTION -->
+    <section class="registration-section">
+        <h2 class="section-title">Event Registration Form</h2>
+
+        <form class="registration-form">
+
+            <!-- NEW EVENT SELECT -->
+            <div class="form-group">
+                <label>Select Event</label>
+                <select required>
+                    <option value="">-- Select Event --</option>
+                    <option>Tech Fest 2026</option>
+                    <option>Coding Hackathon</option>
+                    <option>Cultural Night</option>
+                    <option>Robotics Workshop</option>
+                    <option>Annual Sports Meet</option>
+                    <option>Startup & Innovation Seminar</option>
+                    <option>AI & Machine Learning Seminar</option>
+                    <option>E-Sports Tournament</option>
+                    <option>Cybersecurity Awareness Camp</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" required>
+            </div>
+
+            <div class="form-group">
+                <label>Enrollment Number</label>
+                <input type="text" required>
+            </div>
+
+            <div class="form-group">
+                <label>Institute</label>
+                <select required>
+                    <option>PIT</option>
+                    <option>PIET</option>
+                    <option>PPI</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Course</label>
+                <input type="text" required>
+            </div>
+
+            <div class="form-group">
+                <label>Branch</label>
+                <input type="text" required>
+            </div>
+
+            <div class="form-group">
+                <label>Semester</label>
+                <input type="number" min="1" max="8" required>
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input type="tel" required>
+            </div>
+
+            <div class="form-group">
+                <label>Payment Option</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="payment"> UPI</label>
+                    <label><input type="radio" name="payment"> Card</label>
+                    <label><input type="radio" name="payment"> Cash</label>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Registration</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Campus Events | Academic Project Submission</p>
+    </footer>
+
+</body>
+</html>

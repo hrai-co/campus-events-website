@@ -18,7 +18,7 @@ Developed as an academic front-end project to demonstrate semantic structure, re
 - Clean semantic structure (no JavaScript)
 
 ## 🌐 Live Website
-https://hrai-co.github.io/YOUR-REPO-NAME/
+https://hrai-co.github.io/campus-events-website/
 
 ## 📁 Project Structure
 - index.html
